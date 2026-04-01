@@ -79,7 +79,7 @@ export default function YouTubeHero() {
     }
 
     return () => {
-      window.onYouTubeIframeAPIReady = () => {}
+      window.onYouTubeIframeAPIReady = () => { }
     }
   }, [])
 
@@ -127,7 +127,7 @@ export default function YouTubeHero() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-black/40 pointer-events-none" />
 
       {/* Navigation */}
-      <nav className="relative z-10 flex items-center justify-between px-6 lg:px-12 py-6">
+      {/* <nav className="relative z-10 flex items-center justify-between px-6 lg:px-12 py-6">
         <div className="flex items-center gap-6">
           <button className="flex items-center gap-3 text-white hover:text-white/80 transition-colors">
             <div className="w-12 h-12 rounded-full border-2 border-white flex items-center justify-center">
@@ -141,7 +141,7 @@ export default function YouTubeHero() {
           </a>
         </div>
 
-        {/* Logo */}
+     
         <div className="absolute left-1/2 -translate-x-1/2 text-center text-white">
           <div className="flex flex-col items-center">
             <div className="w-16 h-16 lg:w-20 lg:h-20 mb-2">
@@ -182,17 +182,17 @@ export default function YouTubeHero() {
             <span className="hidden sm:inline">Acceder</span>
           </button>
         </div>
-      </nav>
+      </nav> */}
 
       {/* Hero Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-[calc(100vh-200px)] text-center text-white px-4">
+      {/* <div className="relative z-10 flex flex-col items-center justify-center h-[calc(100vh-200px)] text-center text-white px-4">
         <p className="text-sm lg:text-base tracking-[0.3em] text-amber-200 mb-4">
           HOTEL EMPERADOR MADRID
         </p>
         <h1 className="text-3xl sm:text-4xl lg:text-6xl font-serif font-light tracking-wide text-balance">
           Tu hotel en el corazón de la Gran Vía
         </h1>
-      </div>
+      </div>*/}
 
       {/* Audio Control Button */}
       <button
@@ -216,7 +216,7 @@ export default function YouTubeHero() {
               </div>
             </div>
 
-            {/* Guests */}
+
             <div className="flex-1 flex items-center gap-3 px-4 py-2 border-b lg:border-b-0 lg:border-r border-gray-200">
               <Users className="w-5 h-5 text-gray-400" />
               <div>
@@ -225,7 +225,7 @@ export default function YouTubeHero() {
               </div>
             </div>
 
-            {/* Promo Code */}
+
             <div className="flex-1 flex items-center gap-3 px-4 py-2 border-b lg:border-b-0 lg:border-r border-gray-200">
               <Tag className="w-5 h-5 text-gray-400" />
               <div>
@@ -234,7 +234,7 @@ export default function YouTubeHero() {
               </div>
             </div>
 
-            {/* Search Button */}
+
             <Button className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-6 text-base font-medium">
               Buscar
             </Button>
