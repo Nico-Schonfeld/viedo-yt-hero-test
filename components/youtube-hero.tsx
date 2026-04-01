@@ -185,14 +185,14 @@ export default function YouTubeHero() {
       </nav> */}
 
       {/* Hero Content */}
-      {/* <div className="relative z-10 flex flex-col items-center justify-center h-[calc(100vh-200px)] text-center text-white px-4">
+      <div className="relative z-10 flex flex-col items-center justify-center h-[calc(100vh-200px)] text-center text-white px-4">
         <p className="text-sm lg:text-base tracking-[0.3em] text-amber-200 mb-4">
           HOTEL EMPERADOR MADRID
         </p>
         <h1 className="text-3xl sm:text-4xl lg:text-6xl font-serif font-light tracking-wide text-balance">
           Tu hotel en el corazón de la Gran Vía
         </h1>
-      </div>*/}
+      </div>
 
       {/* Audio Control Button */}
       <button
@@ -203,11 +203,11 @@ export default function YouTubeHero() {
         {isMuted ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
       </button>
 
-      {/* Booking Widget */}
-      <div className="absolute bottom-0 left-0 right-0 z-10 px-4 pb-6">
+
+      {/*   <div className="absolute bottom-0 left-0 right-0 z-10 px-4 pb-6">
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-lg shadow-2xl p-4 flex flex-col lg:flex-row items-stretch lg:items-center gap-4">
-            {/* Check-in/Check-out */}
+     
             <div className="flex-1 flex items-center gap-3 px-4 py-2 border-b lg:border-b-0 lg:border-r border-gray-200">
               <Calendar className="w-5 h-5 text-gray-400" />
               <div>
@@ -240,7 +240,7 @@ export default function YouTubeHero() {
             </Button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
